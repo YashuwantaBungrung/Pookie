@@ -1,0 +1,136 @@
+body{
+    background-color:  #dca3a5;
+    position: relative;
+}
+
+.icon{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}
+
+.gif{
+    margin: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+}
+
+video{
+    width: 300px;
+    height: 300px;
+}
+
+p{
+    font-family: cursive;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+span{
+    margin-left: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    border-radius: 15px;
+    width: 85px;
+    height: 45px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.2);
+    background-color: black;
+    color: white;
+    font-size: 14px;
+}
+
+button.yesbutton{
+    margin-left: 70px;
+}
+
+.floating-button {
+    position: absolute;
+    width: 85px;
+    height: 45px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-left: 25px;
+}
+
+media screen and (max-width: 768px) {
+    .icon {
+        margin-top: 20px;
+    }
+
+    .gif {
+        margin: 10px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    button {
+        width: 60px; 
+        height: 30px; 
+        font-size: 10px;
+    }
+
+    button.yesbutton {
+        margin-left: 20px; 
+    }
+
+    .floating-button {
+        width: 60px;
+        height: 30px;
+        margin-left: 10px; 
+    }
+}
+
+@media screen and (max-width:500px)    {
+    .body{
+        background-color: black;
+        width: 450px;
+        height: 450px;
+    }
+
+    .icon {
+        margin-top: 10px;
+        width: 450px;
+        height: 450px;
+    }
+
+    .gif {
+        margin: 5px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    button {
+        width: 50px;
+        height: 25px; 
+        font-size: 8px; 
+    }
+
+    button.yesbutton {
+        margin-left: 10px; 
+    }
+
+    .floating-button {
+        width: 50px; 
+        height: 25px;
+        margin-left: 5px;
+    }
+}
